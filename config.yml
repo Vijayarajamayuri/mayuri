@@ -1,0 +1,10 @@
+#copy web.cer file
+
+- name: copy web.cer
+  copy:
+    src: "./files/cert/webcert.yml"
+    dest: /var/tmp/webcert.yml
+    owner: dtuserag
+    group: dtuserag
+    mode: 0600
+  register: web.cert  

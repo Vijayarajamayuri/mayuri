@@ -1,4 +1,7 @@
-GIT BASICS
+#$##
+###
+###
+###GIT BASICS
 git init <directory>
 git clone <repo>
 git config user.name <name>
